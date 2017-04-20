@@ -41,7 +41,7 @@
                 <li><a href="location.html">Location</a></li>
                 <li><a href="fleet.html">Fleet</a></li>
                 <li><a href="#">Personnel</a></li>
-                <li><a href="weather.html">Weather</a></li>
+                <li><a href="" data-toggle="modal" data-target="#weather">Weather</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -358,6 +358,17 @@
                     instructor) only upon meeting the South Plains Aviation insurance minimums.
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="weather" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content centered">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2>Current Weather</h2>
+            </div>
+            <iframe frameborder="0" src="http://www.aopa.org/airports/2f5/embed/wx" width="400" height="300"></iframe>
         </div>
     </div>
 </div>

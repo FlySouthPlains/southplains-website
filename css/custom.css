@@ -21,6 +21,10 @@ body {
     text-align: center;
 }
 
+.close {
+    font-size: 40px;
+}
+
 .justified {
     text-align: justify;
 }
