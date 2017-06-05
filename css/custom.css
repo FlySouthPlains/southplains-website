@@ -21,6 +21,11 @@ body {
     text-align: center;
 }
 
+img.centered {
+    display: block;
+    margin: 0 auto;
+}
+
 .close {
     font-size: 40px;
 }
