@@ -34,10 +34,37 @@
             </button>
             <a class="navbar-brand" href="/"><img src="img/logo.png" height="25"></a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="fleet.html">Fleet</a></li>
+                <li><a href="#">Personnel</a></li>
+                <li><a href="" data-toggle="modal" data-target="#weather">Weather</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://portal.office.com" target="_blank">Login</a></li>
+            </ul>
+        </div>
     </div>
 </nav>
 <div class="container theme-showcase" role="main">
-    <h2>Welcome to South Plains Aviation. We apologize for the inconvenience and will be back up online shortly.</h2>
+    <div class="jumbotron">
+        <h2>slideshow here</h2>
+    </div>
+    <h2>Welcome to South Plains Aviation, West Texas' Premier Flight Training Institute!</h2>
+</div>
+<div class="modal fade" id="weather" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content centered">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2>Current Weather</h2>
+            </div>
+            <iframe frameborder="0" src="http://www.aopa.org/airports/2f5/embed/wx?tafRadius=60" width="400" height="300"></iframe>
+        </div>
+    </div>
 </div>
 <footer class="footer">
     <div class="container">
